@@ -1,19 +1,21 @@
 import { useEffect, useState } from "react"
 import Background from "./Components/Background/Background";
+import Navigation from "./Components/Navigation/Navigation";
+import Hero from "./Components/Hero/Hero";
 
 const App = () => {
   let heroData = [
-    {text1:"Dive into", text2:"Taro Cultivation"},
-    {text1:"Mesmerize with", text2:"its benefits"},
-    {text1:"Protect the", text2:"crops"},
+    {text1:"Dive into",text2:"Taro Cultivation"},
+    {text1:"Mesmerize with",text2:"its benefits"},
+    {text1:"Protect the",text2:"crops"},
   ]
-  const [heroCount,setHeroCount] = usestate(2);
-  const [playStatus,setPlayStatus] = usestate(false);
+  const [heroCount,setHeroCount] = useState(0);
+  const [playStatus,setPlayStatus] = useState(false);
 
   useEffect(()=>{
     setInterval(() => {
       setHeroCount((count)=>{return count===2?0:count+1})
-    }, 3000);
+    }, 5000);
   },[])
 
   return (

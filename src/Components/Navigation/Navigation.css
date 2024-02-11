@@ -8,7 +8,7 @@
 
 .nav-logo {
     font-family: Outfit;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -17,7 +17,8 @@
     align-items: center;
     list-style: none;
     font-size: 18px;
-    gap: 90px;
+    gap: 50px;
+    cursor: pointer;
 }
 
 .nav-contact {
@@ -25,4 +26,5 @@
     padding: 10px 38px;
     background: white;
     color: black;
+    cursor: pointer;
 }

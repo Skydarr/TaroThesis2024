@@ -5,26 +5,32 @@
 
 .hero-text{
     color: white;
-    font-size: 110px;
-    font-weight: 500;
-    line-height: 130px;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 100px;
 }
 
 .hero-explore{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
     width: fit-content;
     margin-top: 70px;
-    padding: 5px 8px;
-    padding-left: 30px;
-    border-radius: 60px;
-    background-color: white;
+    padding: 3px 4px;
+    padding-left: 10px;
+    border-radius: 30px;
+    background-color: yellowgreen;
     cursor: pointer;
 }
 
+.hero-arrow-img{
+    width: auto;
+    gap: 30px;
+    height: 50px;
+}
+
 .hero-explore p{
-    color: black;
+    color: wheat;
     font-size: 20px;
     font-weight: 500;
 }
@@ -45,13 +51,13 @@
 .hero-dot{
     width: 15px;
     height: 15px;
-    background:white;
+    background:yellowgreen;
     border-radius: 7.5px;
     cursor: pointer;
 }
 
 .hero-dot.orange{
-    background-color: orangered;
+    background-color: white;
 }
 
 .hero-play{
@@ -63,4 +69,10 @@
 .hero-play p{
     color: white;
     font-size: 19px;
+}
+
+.hero-vid-play {
+    width:auto;
+    height: 50px;
+    cursor: pointer;
 }
